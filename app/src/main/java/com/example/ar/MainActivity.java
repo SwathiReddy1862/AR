@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             //For Shiffting the layout after animation
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this, login.class);
+                Intent intent = new Intent(MainActivity.this, sign_up.class);
 
                 Pair[] pairs = new Pair[2];
                 pairs[0] = new Pair<View,String>(image,"logo_image");
