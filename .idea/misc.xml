@@ -3,15 +3,38 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.2682291666666667" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1075" />
+        <entry key="app/src/main/res/drawable/cart_button_bg.xml" value="0.181" />
+        <entry key="app/src/main/res/drawable/detail_page_cart_button_bg.xml" value="0.181" />
+        <entry key="app/src/main/res/drawable/ic_back.xml" value="0.181" />
+        <entry key="app/src/main/res/drawable/ic_cart.xml" value="0.181" />
+        <entry key="app/src/main/res/drawable/ic_cat_bg.xml" value="0.181" />
+        <entry key="app/src/main/res/drawable/ic_filter.xml" value="0.181" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1075" />
         <entry key="app/src/main/res/layout-w1240dp/activity_login_page.xml" value="0.1" />
         <entry key="app/src/main/res/layout-w936dp/activity_login_page.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/abc.xml" value="0.16164564049762228" />
+        <entry key="app/src/main/res/layout/activity_facemask_productdetails.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/activity_foundation_productdetails.xml" value="0.24166666666666667" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login_page.xml" value="0.13069908814589665" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1911231884057971" />
-        <entry key="app/src/main/res/layout/activity_products.xml" value="0.13069908814589665" />
+        <entry key="app/src/main/res/layout/activity_productdeatils.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/activity_productdetails.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/activity_products.xml" value="0.2495513916015626" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/category_row_item.xml" value="0.166131591796875" />
+        <entry key="app/src/main/res/layout/facemask_products_row_items.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/facemaskproduct.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/foundation_products_row_items.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/foundationproduct.xml" value="0.19894561767578128" />
+        <entry key="app/src/main/res/layout/fragment.xml" value="0.20774078369140625" />
+        <entry key="app/src/main/res/layout/lakmelipsfragment.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/payment.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/paymentpage.xml" value="0.5952484130859375" />
+        <entry key="app/src/main/res/layout/product.xml" value="0.28917999267578126" />
+        <entry key="app/src/main/res/layout/products_row_item.xml" value="0.2451705932617187" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1075" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1075" />
       </map>

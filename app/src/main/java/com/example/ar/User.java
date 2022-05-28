@@ -6,6 +6,8 @@ public class User {
 
     public String fullName, Username, email;
 
+    // here the user information is obtained
+
     public User(){
 
     }

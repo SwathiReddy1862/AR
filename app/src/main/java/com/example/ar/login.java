@@ -46,13 +46,15 @@ public class login extends AppCompatActivity {
                 String userName = username.getText().toString().trim();
                 String Password = password.getText().toString().trim();
 
+                // login authentication to firebase
+
                 mAuth.signInWithEmailAndPassword(userName, Password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
                     Toast.makeText(login.this, "Logged in Successfully", Toast.LENGTH_SHORT).show();
 //                    startActivity(new Intent(getApplicationContext(), products.class));
-                    Intent intent = new Intent(login.this, products.class);
+                    Intent intent = new Intent(login.this, Product.class);
                     startActivity(intent);
                 } else {
 
@@ -62,51 +64,19 @@ public class login extends AppCompatActivity {
         });
 
 
-//                new login();
-//                Intent intent = new Intent(login.this, products.class);
-//                startActivity(intent);
             }
         });
+
+        // to navigate back to sign up if its a new user
+
         signup_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(login.this, sign_up.class);
+                Intent intent = new Intent(login.this, User.class);
                 startActivity(intent);
             }
         });
 
-//        public void login(){
-//
-//            String userName = username.getText().toString().trim();
-//            String Password = password.getText().toString().trim();
-//
-//            if(userName.isEmpty()){
-//                username.setError("This field can't be empty");
-//                username.requestFocus();
-//                return;
-//            }
-//            if(Password.isEmpty()){
-//                password.setError("This field can't be empty");
-//                password.requestFocus();
-//                return;
-//            }
-//            if(Password.length()<6){
-//                password.setError("Password should be atleast 6 characters");
-//                password.requestFocus();
-//                return;
-//            }
-//        mAuth.signInWithEmailAndPassword(e_mail, Password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-//            @Override
-//            public void onComplete(@NonNull Task<AuthResult> task) {
-//                if (task.isSuccessful()) {
-//                    Toast.makeText(login.this, "Logged in Successfully", Toast.LENGTH_SHORT).show();
-//                    startActivity(new Intent(getApplicationContext(), products.class));
-//                } else {
-//                    Toast.makeText(login.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-//                }
-//            }
-//        });
-//        }
 
     }
 }

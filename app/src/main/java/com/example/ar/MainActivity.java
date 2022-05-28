@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        //animations
+        //animations for the splash screen logo and title
 
         topAnim = AnimationUtils.loadAnimation(this,R.anim.top_animation);
         bottomAnim = AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
         new Handler().postDelayed(new Runnable() {
 
-            //For Shiffting the layout after animation
+            //For Shifting the layout after animation
             @Override
             public void run() {
                 Intent intent = new Intent(MainActivity.this, sign_up.class);
